@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE FIRST TRACE</title>
+  
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="css/page2.css">
+</head>
+<body>
+
+  <!-- Back Button (Top-Left Corner) -->
+  <button class="btn-back" id="btn-back">
+    <span class="back-arrow">←</span> BACK
+  </button>
+
+  <!-- Custom Cinematic Mouse Cursor -->
+  <div class="custom-cursor" id="custom-cursor"></div>
+
+  <!-- Ambient CRT Atmosphere & Scanning overlays -->
+  <div class="vignette"></div>
+  <div class="scanlines"></div>
+  <div class="crimson-ambient"></div>
+  <div class="glitch-flash" id="glitch-flash"></div>
+
+  <!-- SCREEN 1: Opening Narrative overlay -->
+  <div id="opening-overlay">
+    <div id="opening-case" class="opening-txt">CASE FILE #02</div>
+    <div id="opening-title" class="opening-txt">THE FIRST TRACE</div>
+    <div id="opening-sub" class="opening-txt">Something was left behind.</div>
+  </div>
+
+  <!-- SCREEN 2: Main Clue Investigation Console -->
+  <div id="investigation-interface" class="hidden-init">
+    <div class="console-header">
+      <div class="console-title glitch-text" data-text="THE FIRST TRACE">THE FIRST TRACE</div>
+      <div class="console-instruction">> DECRYPT ALL THREE EVIDENCE FILES TO PROGRESS FROM THIS PAGE</div>
+      <div class="console-status">
+        <span class="status-indicator"></span>
+        STATUS: <span class="status-text">INVESTIGATING</span>
+      </div>
+    </div>
+
+    <!-- The 3 Evidence Cards Grid -->
+    <div class="investigation-grid">
+      
+      <!-- Card 1: The Image -->
+      <div class="evidence-card" id="card-image">
+        <div class="evidence-card-scanner"></div>
+        <div class="card-label">TRACE 01</div>
+        <div class="card-title">THE IMAGE</div>
+        <div class="card-status" id="status-image">TRACE: LOCKED</div>
+      </div>
+
+      <!-- Card 2: The Record -->
+      <div class="evidence-card" id="card-record">
+        <div class="evidence-card-scanner"></div>
+        <div class="card-label">TRACE 02</div>
+        <div class="card-title">THE RECORD</div>
+        <div class="card-status" id="status-record">TRACE: LOCKED</div>
+      </div>
+
+      <!-- Card 3: The Signal -->
+      <div class="evidence-card" id="card-signal">
+        <div class="evidence-card-scanner"></div>
+        <div class="card-label">TRACE 03</div>
+        <div class="card-title">THE SIGNAL</div>
+        <div class="card-status" id="status-signal">TRACE: LOCKED</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- EVIDENCE OVERLAYS (Modals) -->
+  
+  <!-- Overlay 1: The Image Clue -->
+  <div class="evidence-overlay" id="overlay-image">
+    <div class="evidence-box">
+      <div class="laser-scan"></div>
+      <button class="close-btn" id="close-image">[ CLOSE FILE ]</button>
+      <div class="evidence-header">EXHIBIT A: CORRUPTED IMAGE</div>
+      
+      <div class="image-wrapper">
+        <img src="assets/images/memory_begin.png" alt="Blurred Memory" class="blurred-clue">
+        <div class="noise-overlay"></div>
+      </div>
+
+      <div class="overlay-logs" id="logs-image"></div>
+    </div>
+  </div>
+
+  <!-- Overlay 2: The Record Clue -->
+  <div class="evidence-overlay" id="overlay-record">
+    <div class="evidence-box">
+      <div class="laser-scan"></div>
+      <button class="close-btn" id="close-record">[ CLOSE FILE ]</button>
+      <div class="evidence-header">EXHIBIT B: RECOVERED LOGS</div>
+
+      <div class="record-table">
+        <div class="record-row"><span class="rec-lbl">RECORD ID:</span><span class="rec-val">MEM-0815</span></div>
+        <div class="record-row"><span class="rec-lbl">STATUS:</span><span class="rec-val status-yellow">PARTIALLY RECOVERED</span></div>
+        <div class="record-row"><span class="rec-lbl">ORIGIN:</span><span class="rec-val">UNKNOWN / ENCRYPTED</span></div>
+        <div class="record-row"><span class="rec-lbl">DATE CODE:</span><span class="rec-val">█████████</span></div>
+        <div class="record-row"><span class="rec-lbl">SIGNATURE:</span><span class="rec-val" style="color: var(--accent-red);">DETECTED</span></div>
+      </div>
+
+      <div class="overlay-logs" id="logs-record"></div>
+    </div>
+  </div>
+
+  <!-- Overlay 3: The Signal Clue -->
+  <div class="evidence-overlay" id="overlay-signal">
+    <div class="evidence-box">
+      <div class="laser-scan"></div>
+      <button class="close-btn" id="close-signal">[ CLOSE FILE ]</button>
+      <div class="evidence-header">EXHIBIT C: OSCILLOSCOPE BEAT</div>
+
+      <div class="canvas-wrapper">
+        <canvas id="waveform-canvas"></canvas>
+      </div>
+
+      <div class="overlay-logs" id="logs-signal"></div>
+    </div>
+  </div>
+
+  <!-- SCREEN 3: Clue Completion & Identity Reveal Overlay -->
+  <div id="completion-overlay">
+    <div class="cinematic-revealer">
+      <div id="reveal-msg-1" class="reveal-line">ALL TRACES RECOVERED.</div>
+      <div id="reveal-msg-2" class="reveal-line">IDENTITY DATA: PARTIALLY RECOVERED</div>
+      
+      <div id="reveal-subject-box" class="subject-box">
+        <span class="subject-lbl">SUBJECT:</span>
+        <span id="subject-name" class="redacted-reveal">██████████</span>
+      </div>
+
+      <div id="reveal-msg-3" class="reveal-line message-heavy">YOU KNOW THIS PERSON.</div>
+      <div id="reveal-msg-4" class="reveal-line message-heavy crimson-flash">DON'T YOU?</div>
+    </div>
+
+    <!-- Final Navigation Outline Button -->
+    <div class="btn-revealed-container" id="follow-btn-container">
+      <button class="btn-thriller" id="follow-trace-btn">
+        FOLLOW THE TRACE →
+      </button>
+    </div>
+  </div>
+
+  <!-- Interactive Logic -->
+  <script src="js/page2.js"></script>
+</body>
+</html>

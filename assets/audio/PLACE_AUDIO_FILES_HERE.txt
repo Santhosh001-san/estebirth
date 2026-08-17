@@ -1,0 +1,21 @@
+PLACE CUSTOM MP3 SOUND FILES IN THIS DIRECTORY:
+
+1. assets/audio/ambient-thriller.mp3
+   - Ambient, suspenseful, dark room background music. Keep volume low and loops seamless.
+
+2. assets/audio/typing.mp3
+   - Short keyboard keystroke ticks or old terminal printing click sounds.
+
+3. assets/audio/glitch.mp3
+   - Crackly analog TV static noise, RF interference buzzing for transitions and screen flickers.
+
+4. assets/audio/scan.mp3
+   - Repetitive high-tech scanner sweeps or sonar radar pulses for verification sequences.
+
+5. assets/audio/click.mp3
+   - Heavy layered control room button click (mechanical click + deep bass thump).
+
+6. assets/audio/access-granted.mp3
+   - Sub-bass cinematic boom impact, followed by CRT shutdown crackles and fade-outs.
+
+NOTE: If any of these files are missing, the website will automatically fall back to high-fidelity, real-time synthesized audio generated via the browser's HTML5 Web Audio API. This keeps the experience fully functional out-of-the-box!

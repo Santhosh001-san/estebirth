@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE UNSEEN FILE</title>
+  
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+  <!-- Custom Cinematic Mouse Cursor (Desktop only) -->
+  <div class="custom-cursor" id="custom-cursor"></div>
+
+  <!-- Ambient CRT Atmosphere & Scanning overlays -->
+  <div class="vignette"></div>
+  <div class="scanlines"></div>
+  <div class="crimson-ambient"></div>
+  <div class="glitch-flash" id="glitch-flash"></div>
+
+  <!-- Sound Toggle Control Widget -->
+  <button class="sound-toggle-widget" id="sound-toggle">🔊</button>
+
+  <!-- Glitching Human silhouette Shadow Canvas -->
+  <canvas id="silhouette-canvas"></canvas>
+
+  <!-- SCREEN 1: Terminal Typewriter logs (Initial screen activity) -->
+  <div id="intro-terminal">
+    <!-- Sequential logs printed here -->
+    <span class="cursor-blink"></span>
+  </div>
+
+  <!-- SCREEN 2: Classified Glass panel Document details (Hidden initially) -->
+  <div id="classified-panel">
+    <div class="laser-scan"></div>
+    <div class="panel-header glitch-text" data-text="THE UNSEEN FILE">THE UNSEEN FILE</div>
+    
+    <div class="panel-row">
+      <span class="panel-lbl">STATUS:</span>
+      <span class="panel-val status-active">ACTIVE</span>
+    </div>
+    <div class="panel-row">
+      <span class="panel-lbl">SUBJECT:</span>
+      <span class="panel-val redacted">██████████</span>
+    </div>
+    <div class="panel-row">
+      <span class="panel-lbl">ORIGIN:</span>
+      <span class="panel-val">UNKNOWN / ENCRYPTED</span>
+    </div>
+    <div class="panel-row">
+      <span class="panel-lbl">MEMORY RECORDS:</span>
+      <span class="panel-val" style="color: var(--crimson-light);">DETECTED</span>
+    </div>
+    <div class="panel-row">
+      <span class="panel-lbl">ACCESS LEVEL:</span>
+      <span class="panel-val" style="color: var(--crimson-light);">RESTRICTED (L3)</span>
+    </div>
+  </div>
+
+  <!-- SCREEN 3: Cinematic Typography Messages (Hidden initially) -->
+  <div class="cinematic-overlay" id="cinematic-overlay">
+    <div class="cinematic-message" id="cine-msg-1">
+      YOU WERE NEVER SUPPOSED TO FIND THIS.
+    </div>
+    <div class="cinematic-message message-sub" id="cine-msg-2">
+      BUT NOW THAT YOU HAVE...
+    </div>
+    <div class="cinematic-message message-alert" id="cine-msg-3">
+      THERE IS ONLY ONE WAY FORWARD.
+    </div>
+  </div>
+
+  <!-- SCREEN 4: The control outline button -->
+  <div class="button-container" id="button-container">
+    <button class="btn-thriller" id="unlock-btn">
+      UNLOCK THE TRUTH
+    </button>
+  </div>
+
+  <!-- Cinematic Interactive Script -->
+  <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE FINAL TRACE</title>
+  
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="css/page3.css">
+</head>
+<body>
+
+  <!-- Back Button (Top-Left Corner) -->
+  <button class="btn-back" id="btn-back">
+    <span class="back-arrow">←</span> BACK
+  </button>
+
+  <!-- Custom Cinematic Mouse Cursor -->
+  <div class="custom-cursor" id="custom-cursor"></div>
+
+  <!-- Ambient CRT Atmosphere & Scanning overlays -->
+  <div class="vignette"></div>
+  <div class="scanlines"></div>
+  <div class="crimson-ambient"></div>
+  <div class="glitch-flash" id="glitch-flash"></div>
+
+  <!-- SCREEN 1: Opening Diagnostics sequence -->
+  <div id="opening-diagnostics">
+    <div id="diag-line-1" class="diag-txt">FINAL CONNECTION ESTABLISHED.</div>
+    <div id="diag-line-2" class="diag-txt">FINAL TRACE DETECTED.</div>
+    <div id="diag-line-3" class="diag-txt">MEMORY RECORD: FOUND</div>
+    <div id="diag-line-4" class="diag-txt">ANALYZING FINAL TRACE...</div>
+  </div>
+
+  <!-- SCREEN 2: Main Classified Decryption Console -->
+  <div id="main-console" class="hidden-init">
+    <div class="console-header">
+      <div class="console-title glitch-text" data-text="THE FINAL TRACE">THE FINAL TRACE</div>
+      <div class="console-meta">
+        <span class="meta-row">CASE STATUS: <span class="status-alert">FINAL STAGE</span></span>
+        <span class="meta-divider">|</span>
+        <span class="meta-row">TRACE INTEGRITY: <span class="status-alert">91%</span></span>
+        <span class="meta-divider">|</span>
+        <span class="meta-row">MEMORY SIGNAL: <span class="status-alert">DETECTED</span></span>
+      </div>
+    </div>
+
+    <!-- Central Encryption Module -->
+    <div id="encryption-module" class="glass-panel">
+      <div class="laser-scan"></div>
+      
+      <div class="file-icon"></div>
+      <div class="file-name">FINAL_MEMORY.dat</div>
+      
+      <div class="file-info-grid" id="file-info">
+        <div class="info-row"><span class="info-lbl">STATUS:</span><span class="info-val status-yellow">ENCRYPTED</span></div>
+        <div class="info-row"><span class="info-lbl">ACCESS LEVEL:</span><span class="info-val status-red">RESTRICTED</span></div>
+        <div class="info-row"><span class="info-lbl">MEMORY FRAGMENT:</span><span class="info-val status-red">DETECTED</span></div>
+      </div>
+
+      <div class="btn-container" id="access-btn-wrap">
+        <button class="btn-thriller" id="access-memory-btn">ACCESS MEMORY</button>
+      </div>
+
+      <!-- Decryption Progress log and bar (Hidden initially) -->
+      <div id="decryption-wrapper" class="hidden-init">
+        <div id="decryption-logs"></div>
+        <div class="progress-bar-container">
+          <div id="progress-bar-fill"></div>
+        </div>
+      </div>
+
+      <!-- Decrypted Exhibit Area (Hidden initially) -->
+      <div id="memory-exhibit" class="hidden-init">
+        <div class="image-frame">
+          <img src="assets/images/memory_milestone.jpg" alt="Decrypted Clue" class="blurred-clue" id="exhibit-img">
+          <div class="image-shade"></div>
+        </div>
+        <div class="exhibit-logs" id="exhibit-logs-text"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SCREEN 3: Climax Suspense & Final File Lock Overlay -->
+  <div id="suspense-overlay">
+    <div class="suspense-narrator">
+      <div id="suspense-line-1" class="suspense-txt">THIS WAS NEVER ABOUT A CASE.</div>
+      <div id="suspense-line-2" class="suspense-txt">IT WAS ABOUT A MEMORY.</div>
+      <div id="suspense-line-3" class="suspense-txt">AND ONE LAST FILE...</div>
+      <div id="suspense-line-4" class="suspense-txt crimson-glow">IS STILL LOCKED.</div>
+    </div>
+
+    <!-- Final Classified File Module -->
+    <div id="final-file-box" class="glass-panel">
+      <div class="laser-scan"></div>
+      <div class="final-header">FINAL_FILE</div>
+      
+      <div class="final-row"><span class="final-lbl">STATUS:</span><span class="final-val status-red">LOCKED</span></div>
+      <div class="final-row"><span class="final-lbl">ACCESS CODE:</span><span class="final-val">REQUIRED</span></div>
+      
+      <div class="final-instruction">ONE LAST STEP.</div>
+      
+      <div class="final-btn-wrap">
+        <button class="btn-thriller" id="open-final-file-btn">OPEN THE FINAL FILE →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="js/page3.js"></script>
+</body>
+</html>
