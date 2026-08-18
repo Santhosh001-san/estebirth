@@ -2540,7 +2540,7 @@
     const hoverables = [
       soundToggle, sparkleBtn, backBtn, btnGameHub, closeHubBtn, backToDashboardBtn,
       btnMovieHub, closeMovieHubBtn, backToMovieDashboardBtn, closeLightboxBtn,
-      btnMovieMessage, closeMovieMessageBtn, viewportToggle
+      btnMovieMessage, closeMovieMessageBtn
     ];
     hoverables.forEach(btn => {
       if (btn) {
@@ -2573,33 +2573,6 @@
       setTimeout(() => {
         window.location.href = "page3.html";
       }, 150);
-    });
-  }
-
-  // Viewport mode switch logic
-  const viewportToggle = document.getElementById("viewport-toggle");
-  if (viewportToggle) {
-    const savedMode = localStorage.getItem("viewport-mode");
-    if (savedMode === "mobile") {
-      document.body.classList.add("simulated-mobile");
-      viewportToggle.innerHTML = "🖥️ Desktop View";
-    }
-    
-    viewportToggle.addEventListener("click", () => {
-      if (document.body.classList.contains("simulated-mobile")) {
-        document.body.classList.remove("simulated-mobile");
-        viewportToggle.innerHTML = "📱 Mobile View";
-        localStorage.setItem("viewport-mode", "desktop");
-      } else {
-        document.body.classList.add("simulated-mobile");
-        viewportToggle.innerHTML = "🖥️ Desktop View";
-        localStorage.setItem("viewport-mode", "mobile");
-      }
-      
-      // Trigger canvas resize so the stars/particles adapt immediately
-      if (typeof resizeCanvas === 'function') {
-        resizeCanvas();
-      }
     });
   }
 
