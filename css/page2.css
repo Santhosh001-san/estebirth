@@ -881,3 +881,53 @@ body {
 .btn-back.pressed {
   transform: scale(0.92);
 }
+
+/* Viewport Mode Switch Widget */
+.viewport-toggle-widget {
+  position: fixed;
+  top: 20px;
+  right: 20px; /* on other pages, place it in the top right corner */
+  background: rgba(10, 5, 15, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50px;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 8px 16px;
+  font-family: monospace;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  z-index: 10000;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.viewport-toggle-widget:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+}
+
+body.simulated-mobile {
+  max-width: 412px !important;
+  margin: 0 auto !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.95), 0 0 45px rgba(171, 71, 188, 0.15) !important;
+  position: relative !important;
+  height: 100vh !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+
+/* Hide switch on actual small mobile displays */
+@media (max-width: 600px) {
+  .viewport-toggle-widget {
+    display: none !important;
+  }
+}

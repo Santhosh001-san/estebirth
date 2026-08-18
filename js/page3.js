@@ -326,6 +326,33 @@
     }
   }
 
+  // Viewport mode switch logic
+  const viewportToggle = document.getElementById("viewport-toggle");
+  if (viewportToggle) {
+    const savedMode = localStorage.getItem("viewport-mode");
+    if (savedMode === "mobile") {
+      document.body.classList.add("simulated-mobile");
+      viewportToggle.innerHTML = "🖥️ Desktop View";
+    }
+    
+    viewportToggle.addEventListener("click", () => {
+      if (document.body.classList.contains("simulated-mobile")) {
+        document.body.classList.remove("simulated-mobile");
+        viewportToggle.innerHTML = "📱 Mobile View";
+        localStorage.setItem("viewport-mode", "desktop");
+      } else {
+        document.body.classList.add("simulated-mobile");
+        viewportToggle.innerHTML = "🖥️ Desktop View";
+        localStorage.setItem("viewport-mode", "mobile");
+      }
+    });
+
+    if (!isTouchDevice && customCursor) {
+      viewportToggle.addEventListener("mouseenter", () => customCursor.classList.add("hovering"));
+      viewportToggle.addEventListener("mouseleave", () => customCursor.classList.remove("hovering"));
+    }
+  }
+
   // Boot
   runDiagnosticsSequence();
 
