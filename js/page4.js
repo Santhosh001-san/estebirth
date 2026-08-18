@@ -2254,6 +2254,7 @@
       id: "leo",
       title: "Leo",
       image: "assets/images/leo.jpeg",
+      genre: "Action / Crime / Thriller",
       story: "Parthiban is a mild-mannered cafe owner in Himachal Pradesh who becomes a local hero, but his actions trigger a dark blast from the past, dragging him back into a brutal gangster world.",
       cast: "Vijay, Trisha, Sanjay Dutt, Arjun Sarja, Gautham Vasudev Menon",
       crew: "Director: Lokesh Kanagaraj | Music: Anirudh Ravichander | Producer: Seven Screen Studio"
@@ -2262,6 +2263,7 @@
       id: "amaran",
       title: "Amaran",
       image: "assets/images/amaran.jpeg",
+      genre: "Action / Biography / Drama / War",
       story: "The inspiring true story of Major Mukund Varadarajan, an Indian Army officer who displayed immense valor during a counter-terrorism operation in Jammu and Kashmir.",
       cast: "Sivakarthikeyan, Sai Pallavi, Bhuvan Arora, Rahul Bose",
       crew: "Director: Rajkumar Periasamy | Music: G. V. Prakash Kumar | Producer: Raaj Kamal Films International"
@@ -2270,6 +2272,7 @@
       id: "dragon",
       title: "Dragon",
       image: "assets/images/dragon.jpeg",
+      genre: "Comedy / Drama / Romance",
       story: "A fun, energetic youth drama centered around college life, ambition, and the wild, comedic misadventures of a group of close friends finding their path.",
       cast: "Pradeep Ranganathan, Anupama Parameswaran, Kayadu Lohar",
       crew: "Director: Ashwath Marimuthu | Music: Leon James | Producer: AGS Entertainment"
@@ -2278,6 +2281,7 @@
       id: "visaranai",
       title: "Visaranai",
       image: "assets/images/visaranai.jpeg",
+      genre: "Crime / Drama / Thriller",
       story: "A hard-hitting police procedural drama that exposes police brutality, systemic corruption, and the tragic plight of innocent immigrant workers caught in a web of power.",
       cast: "Dinesh, Samuthirakani, Kishore, Anandhi, Murugadass",
       crew: "Director: Vetrimaaran | Music: G. V. Prakash Kumar | Producer: Wunderbar Films"
@@ -2286,6 +2290,7 @@
       id: "goat",
       title: "GOAT",
       image: "assets/images/goat.jpeg",
+      genre: "Action / Sci-Fi / Thriller",
       story: "An elite counter-terrorism agent retired from active duty is forced back into the field when a deadly shadow from his past threatens his family and country.",
       cast: "Vijay, Prashanth, Prabhu Deva, Sneha, Laila, Meenakshi Chaudhary",
       crew: "Director: Venkat Prabhu | Music: Yuvan Shankar Raja | Producer: AGS Entertainment"
@@ -2294,6 +2299,7 @@
       id: "vidamuyarchi",
       title: "Vidamuyarchi",
       image: "assets/images/vidamuyarchi.jpeg",
+      genre: "Action / Thriller",
       story: "A high-octane thriller about a man's relentless search for his wife who goes missing during a road trip, leading him into a web of conspiracy and danger.",
       cast: "Ajith Kumar, Trisha, Arjun Sarja, Aarav, Regina Cassandra",
       crew: "Director: Magizh Thirumeni | Music: Anirudh Ravichander | Producer: Lyca Productions"
@@ -2302,6 +2308,7 @@
       id: "mandela",
       title: "Mandela",
       image: "assets/images/mandela.jpeg",
+      genre: "Comedy / Drama / Political",
       story: "In a divided village, a poor barber named Mandela suddenly becomes the single deciding vote in a local election, leading to a hilarious scramble for his favor.",
       cast: "Yogi Babu, Sheela Rajkumar, Sangili Murugan, G. M. Kumar",
       crew: "Director: Madonne Ashwin | Music: Bharath Sankar | Producer: YNOT Studios"
@@ -2310,6 +2317,7 @@
       id: "love_today",
       title: "Love Today",
       image: "assets/images/love_today.jpeg",
+      genre: "Comedy / Romance / Drama",
       story: "A modern couple is challenged by the girl's father to swap their smartphones for 24 hours before marriage, leading to a chaotic, hilarious expose of secrets.",
       cast: "Pradeep Ranganathan, Ivana, Sathyaraj, Radhika Sarathkumar, Yogi Babu",
       crew: "Director: Pradeep Ranganathan | Music: Yuvan Shankar Raja | Producer: AGS Entertainment"
@@ -2318,6 +2326,7 @@
       id: "with_love",
       title: "With Love (2026)",
       image: "assets/images/with_love.jpeg",
+      genre: "Romance / Drama",
       story: "Sathya and Monisha meet on a blind date and discover that they were schoolmates. As they revisit old memories and unspoken feelings, their unexpected meeting slowly brings them closer.",
       cast: "Hero: Abishan Jeevinth | Heroine: Anaswara Rajan",
       crew: "Director: Madhan"
@@ -2326,6 +2335,7 @@
       id: "doctor",
       title: "Doctor",
       image: "assets/images/doctor.jpeg",
+      genre: "Action / Comedy / Crime",
       story: "An emotionless military doctor leads a quirky family on a rescue mission to track down and dismantle a human trafficking ring in a deadpan comedic style.",
       cast: "Sivakarthikeyan, Priyanka Arul Mohan, Vinay Rai, Yogi Babu, Redin Kingsley",
       crew: "Director: Nelson Dilipkumar | Music: Anirudh Ravichander | Producer: KJR Studios"
@@ -2382,6 +2392,10 @@
           <p class="movie-details-story">${movie.story}</p>
           
           <div class="movie-details-meta">
+            <div class="meta-block">
+              <span class="meta-block-title">Genre</span>
+              <p class="meta-block-val">${movie.genre}</p>
+            </div>
             <div class="meta-block">
               <span class="meta-block-title">Starring Cast</span>
               <p class="meta-block-val">${movie.cast}</p>
