@@ -3,7 +3,7 @@
 :root {
   --bg-color: #020202;
   --accent-red-dark: #4a0000;
-  --accent-red: #8b0000;
+  --accent-red: #e53935;
   --accent-red-light: #ff2a2a;
   --panel-glass: rgba(10, 5, 5, 0.72);
   --terminal-white: #ffffff;
@@ -629,7 +629,7 @@ body {
 /* Generic thriller button layout matching Page 1 */
 .btn-thriller {
   background: transparent;
-  border: 1px solid rgba(139, 0, 0, 0.4);
+  border: 1px solid rgba(229, 57, 53, 0.45);
   color: var(--accent-red);
   font-family: var(--font-terminal);
   font-size: 1rem;
@@ -641,14 +641,14 @@ body {
   transition: var(--transition-slow);
   position: relative;
   overflow: hidden;
-  box-shadow: 0 0 10px rgba(139, 0, 0, 0.05);
+  box-shadow: 0 0 10px rgba(229, 57, 53, 0.08);
   animation: pulseButtonBorder 2.5s infinite alternate ease-in-out;
 }
 
 @keyframes pulseButtonBorder {
   0% { 
-    border-color: rgba(139, 0, 0, 0.35); 
-    box-shadow: 0 0 8px rgba(139, 0, 0, 0.05);
+    border-color: rgba(229, 57, 53, 0.35); 
+    box-shadow: 0 0 8px rgba(229, 57, 53, 0.05);
   }
   100% { 
     border-color: rgba(255, 42, 42, 0.6); 

@@ -3,7 +3,7 @@
 :root {
   --bg-color: #020202;
   --crimson-dark: #4a0000;
-  --crimson-base: #8b0000;
+  --crimson-base: #e53935;
   --crimson-light: #ff2a2a;
   --terminal-color: #ffffff;
   --font-terminal: 'Courier Prime', 'Courier New', monospace;
@@ -348,7 +348,7 @@ body {
 /* Outline button */
 .btn-thriller {
   background: transparent;
-  border: 1px solid rgba(139, 0, 0, 0.4);
+  border: 1px solid rgba(229, 57, 53, 0.45);
   color: var(--crimson-base);
   font-family: var(--font-terminal);
   font-size: 1rem;
@@ -360,14 +360,14 @@ body {
   transition: var(--transition-slow);
   position: relative;
   overflow: hidden;
-  box-shadow: 0 0 10px rgba(139, 0, 0, 0.05);
+  box-shadow: 0 0 10px rgba(229, 57, 53, 0.08);
   animation: pulseButtonBorder 2.5s infinite alternate ease-in-out;
 }
 
 @keyframes pulseButtonBorder {
   0% { 
-    border-color: rgba(139, 0, 0, 0.35); 
-    box-shadow: 0 0 8px rgba(139, 0, 0, 0.05);
+    border-color: rgba(229, 57, 53, 0.35); 
+    box-shadow: 0 0 8px rgba(229, 57, 53, 0.05);
   }
   100% { 
     border-color: rgba(255, 42, 42, 0.6); 
