@@ -2257,6 +2257,16 @@ body {
   margin-top: 10px;
 }
 
+/* Watch Online Button Hover styling */
+.watch-link-btn:hover {
+  background: rgba(41, 182, 246, 0.3) !important;
+  border-color: var(--accent-blue) !important;
+  color: #fff !important;
+  box-shadow: 0 0 15px rgba(41, 182, 246, 0.4) !important;
+  transform: translateY(-2px);
+}
+
+
 
 
 

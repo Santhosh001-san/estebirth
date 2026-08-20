@@ -2257,7 +2257,8 @@
       genre: "Action / Crime / Thriller",
       story: "Parthiban is a mild-mannered cafe owner in Himachal Pradesh who becomes a local hero, but his actions trigger a dark blast from the past, dragging him back into a brutal gangster world.",
       cast: "Vijay, Trisha, Sanjay Dutt, Arjun Sarja, Gautham Vasudev Menon",
-      crew: "Director: Lokesh Kanagaraj | Music: Anirudh Ravichander | Producer: Seven Screen Studio"
+      crew: "Director: Lokesh Kanagaraj | Music: Anirudh Ravichander | Producer: Seven Screen Studio",
+      note: "Watching this movie before watching Kaithi and Vikram 2 is not recommended. LCU (Lokesh Cinematic Universe) is a shared cinematic universe just like the Marvel and DC superhero universes, but instead of superheroes, it is an interconnected gangster universe. Since Kaithi and Vikram 2 are not available on Netflix, you can find the direct watch links in their respective details sections below in this Movie Hub. So, please do not watch this movie without the correct order!"
     },
     {
       id: "amaran",
@@ -2347,7 +2348,8 @@
       genre: "Action / Thriller",
       story: "An ex-convict who is eager to meet his daughter for the first time is intercepted by an inspector who needs his help to drive a truck full of unconscious cops to a hospital, while being chased by gang members.",
       cast: "Karthi, Narain, Arjun Das, George Maryan, Harish Uthaman",
-      crew: "Director: Lokesh Kanagaraj | Music: Sam C. S. | Producer: Dream Warrior Pictures"
+      crew: "Director: Lokesh Kanagaraj | Music: Sam C. S. | Producer: Dream Warrior Pictures",
+      watchLink: "https://www.hotstar.com/in/movies/kaithi/1260015509"
     },
     {
       id: "vikram_2",
@@ -2356,7 +2358,8 @@
       genre: "Action / Crime / Thriller",
       story: "A special agent investigates a series of murders committed by a masked group of vigilantes, leading to a massive conflict involving a drug kingpin and a legendary black ops commander.",
       cast: "Kamal Haasan, Vijay Sethupathi, Fahadh Faasil, Kalidas Jayaram, Narain, Suriya (cameo)",
-      crew: "Director: Lokesh Kanagaraj | Music: Anirudh Ravichander | Producer: Raaj Kamal Films International"
+      crew: "Director: Lokesh Kanagaraj | Music: Anirudh Ravichander | Producer: Raaj Kamal Films International",
+      watchLink: "https://www.hotstar.com/in/movies/vikram/1260106579"
     },
     {
       id: "aayirathil_oruvan",
@@ -2437,6 +2440,14 @@
           <p class="movie-details-story">${movie.story}</p>
           
           <div class="movie-details-meta">
+            ${movie.note ? `
+            <div class="meta-block" style="grid-column: 1 / -1; margin-bottom: 15px;">
+              <span class="meta-block-title" style="color: var(--accent-pink);">Special LCU Note</span>
+              <p class="meta-block-val" style="color: #bfbbcc; font-style: italic; background: rgba(255, 42, 42, 0.08); padding: 12px 18px; border-radius: 12px; border-left: 3px solid var(--accent-pink); line-height: 1.6; margin: 0;">
+                ${movie.note}
+              </p>
+            </div>
+            ` : ''}
             <div class="meta-block">
               <span class="meta-block-title">Genre</span>
               <p class="meta-block-val">${movie.genre}</p>
@@ -2449,6 +2460,16 @@
               <span class="meta-block-title">Crew & Production</span>
               <p class="meta-block-val">${movie.crew}</p>
             </div>
+            ${movie.watchLink ? `
+            <div class="meta-block" style="margin-top: 15px;">
+              <span class="meta-block-title" style="color: var(--accent-blue);">Where to Watch</span>
+              <p class="meta-block-val" style="margin: 0;">
+                <a href="${movie.watchLink}" target="_blank" class="watch-link-btn" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(41, 182, 246, 0.15); color: var(--accent-blue); padding: 10px 20px; border: 1px solid rgba(41, 182, 246, 0.4); border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 0.85rem; letter-spacing: 1px; transition: all 0.3s ease; box-shadow: 0 0 10px rgba(41, 182, 246, 0.1);">
+                  🚀 STREAM ONLINE
+                </a>
+              </p>
+            </div>
+            ` : ''}
           </div>
         </div>
       </div>
