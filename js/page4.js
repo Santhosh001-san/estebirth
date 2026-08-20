@@ -2350,7 +2350,8 @@
       cast: "Karthi, Narain, Arjun Das, George Maryan, Harish Uthaman",
       crew: "Director: Lokesh Kanagaraj | Music: Sam C. S. | Producer: Dream Warrior Pictures",
       watchLink: "https://moviesdatamil.co/kaithi-movie-original-hd/",
-      vpnNote: "If you want to download this movie, please change your VPN to an Indian server"
+      vpnNote: "If you want to download this movie, please change your VPN to an Indian server",
+      subLink: "https://subdl.com/subtitle/sd1384133/kaithi"
     },
     {
       id: "vikram_2",
@@ -2361,7 +2362,8 @@
       cast: "Kamal Haasan, Vijay Sethupathi, Fahadh Faasil, Kalidas Jayaram, Narain, Suriya (cameo)",
       crew: "Director: Lokesh Kanagaraj | Music: Anirudh Ravichander | Producer: Raaj Kamal Films International",
       watchLink: "https://moviesdatamil.co/vikram-movie-original-hd/",
-      vpnNote: "If you want to download this movie, please change your VPN to an Indian server"
+      vpnNote: "If you want to download this movie, please change your VPN to an Indian server",
+      subLink: "https://subdl.com/subtitle/sd1637257/vikram"
     },
     {
       id: "aayirathil_oruvan",
@@ -2372,7 +2374,8 @@
       cast: "Karthi, Reemma Sen, Andrea Jeremiah, Parthiban",
       crew: "Director: Selvaraghavan | Music: G. V. Prakash Kumar | Producer: Dream Valley Corporation",
       watchLink: "https://moviesdatamil.co/aayirathil-oruvan-movie-360p-hd/",
-      vpnNote: "If you want to download this movie, please change your VPN to an Indian server"
+      vpnNote: "If you want to download this movie, please change your VPN to an Indian server",
+      subLink: "https://subdl.com/subtitle/sd4763/aayirathil-oruvan"
     },
     {
       id: "anniyan",
@@ -2383,7 +2386,8 @@
       cast: "Vikram, Sadha, Nedumudi Venu, Vivek, Prakash Raj",
       crew: "Director: S. Shankar | Music: Harris Jayaraj | Producer: Oscar Films",
       watchLink: "https://moviesdatamil.co/anniyan-original-movie/",
-      vpnNote: "If you want to download this movie, please change your VPN to an Indian server"
+      vpnNote: "If you want to download this movie, please change your VPN to an Indian server",
+      subLink: "https://subdl.com/subtitle/sd21446/anniyan"
     },
     {
       id: "kaththi",
@@ -2394,7 +2398,8 @@
       cast: "Vijay, Samantha, Neil Nitin Mukesh, Tota Roy Chowdhury",
       crew: "Director: A. R. Murugadoss | Music: Anirudh Ravichander | Producer: Lyca Productions",
       watchLink: "https://moviesdatamil.co/kaththi-2014-movie/",
-      vpnNote: "If you want to download this movie, please change your VPN to an Indian server"
+      vpnNote: "If you want to download this movie, please change your VPN to an Indian server",
+      subLink: "https://subdl.com/subtitle/sd1767/kaththi"
     }
   ];
 
@@ -2480,6 +2485,19 @@
                   ⚠️ ${movie.vpnNote}
                 </span>
                 ` : ''}
+              </p>
+            </div>
+            ` : ''}
+            ${movie.subLink ? `
+            <div class="meta-block" style="margin-top: 15px;">
+              <span class="meta-block-title" style="color: var(--accent-pink);">Movie Subtitles</span>
+              <p class="meta-block-val" style="margin: 0; display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
+                <a href="${movie.subLink}" target="_blank" class="watch-link-btn sub-link-btn" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(244, 143, 177, 0.15); color: var(--accent-pink); padding: 10px 20px; border: 1px solid rgba(244, 143, 177, 0.4); border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 0.85rem; letter-spacing: 1px; transition: all 0.3s ease; box-shadow: 0 0 10px rgba(244, 143, 177, 0.1);">
+                  📥 Click this to download English Subtitle
+                </a>
+                <span style="font-family: var(--font-terminal); font-size: 0.75rem; color: #bfbbcc; font-style: italic; margin-top: 4px; display: block; letter-spacing: 0.5px; line-height: 1.4;">
+                  ℹ️ Note: I don't know whether this website works in your country or requires an Indian server, so please try both servers (with/without VPN).
+                </span>
               </p>
             </div>
             ` : ''}

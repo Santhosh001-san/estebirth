@@ -2266,6 +2266,15 @@ body {
   transform: translateY(-2px);
 }
 
+.sub-link-btn:hover {
+  background: rgba(244, 143, 177, 0.3) !important;
+  border-color: var(--accent-pink) !important;
+  color: #fff !important;
+  box-shadow: 0 0 15px rgba(244, 143, 177, 0.4) !important;
+  transform: translateY(-2px);
+}
+
+
 
 
 
