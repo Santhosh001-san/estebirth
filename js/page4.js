@@ -2349,7 +2349,8 @@
       story: "An ex-convict who is eager to meet his daughter for the first time is intercepted by an inspector who needs his help to drive a truck full of unconscious cops to a hospital, while being chased by gang members.",
       cast: "Karthi, Narain, Arjun Das, George Maryan, Harish Uthaman",
       crew: "Director: Lokesh Kanagaraj | Music: Sam C. S. | Producer: Dream Warrior Pictures",
-      watchLink: "https://www.hotstar.com/in/movies/kaithi/1260015509"
+      watchLink: "https://moviesdatamil.co/kaithi-movie-original-hd/",
+      vpnNote: "If you want to download this movie, please change your VPN to an Indian server"
     },
     {
       id: "vikram_2",
@@ -2359,7 +2360,8 @@
       story: "A special agent investigates a series of murders committed by a masked group of vigilantes, leading to a massive conflict involving a drug kingpin and a legendary black ops commander.",
       cast: "Kamal Haasan, Vijay Sethupathi, Fahadh Faasil, Kalidas Jayaram, Narain, Suriya (cameo)",
       crew: "Director: Lokesh Kanagaraj | Music: Anirudh Ravichander | Producer: Raaj Kamal Films International",
-      watchLink: "https://www.hotstar.com/in/movies/vikram/1260106579"
+      watchLink: "https://moviesdatamil.co/vikram-movie-original-hd/",
+      vpnNote: "If you want to download this movie, please change your VPN to an Indian server"
     },
     {
       id: "aayirathil_oruvan",
@@ -2368,7 +2370,9 @@
       genre: "Action / Adventure / Fantasy",
       story: "An archaeologist, a government officer, and a group of coolies embark on a dangerous journey into the deserts of Vietnam to find a missing archaeologist and uncover the lost Chola civilization.",
       cast: "Karthi, Reemma Sen, Andrea Jeremiah, Parthiban",
-      crew: "Director: Selvaraghavan | Music: G. V. Prakash Kumar | Producer: Dream Valley Corporation"
+      crew: "Director: Selvaraghavan | Music: G. V. Prakash Kumar | Producer: Dream Valley Corporation",
+      watchLink: "https://moviesdatamil.co/aayirathil-oruvan-movie-360p-hd/",
+      vpnNote: "If you want to download this movie, please change your VPN to an Indian server"
     },
     {
       id: "anniyan",
@@ -2377,7 +2381,9 @@
       genre: "Action / Drama / Thriller",
       story: "An idealistic consumer protection advocate, frustrated by public apathy and corruption, develops multiple personality disorder, manifesting a vigilante persona who executes lawbreakers using ancient methods.",
       cast: "Vikram, Sadha, Nedumudi Venu, Vivek, Prakash Raj",
-      crew: "Director: S. Shankar | Music: Harris Jayaraj | Producer: Oscar Films"
+      crew: "Director: S. Shankar | Music: Harris Jayaraj | Producer: Oscar Films",
+      watchLink: "https://moviesdatamil.co/anniyan-original-movie/",
+      vpnNote: "If you want to download this movie, please change your VPN to an Indian server"
     },
     {
       id: "kaththi",
@@ -2386,7 +2392,9 @@
       genre: "Action / Drama / Thriller",
       story: "Kathiresan, a criminal who escapes from prison, assumes the identity of his lookalike Jeeva, a social activist fighting a greedy corporation that is trying to seize agricultural land from farmers.",
       cast: "Vijay, Samantha, Neil Nitin Mukesh, Tota Roy Chowdhury",
-      crew: "Director: A. R. Murugadoss | Music: Anirudh Ravichander | Producer: Lyca Productions"
+      crew: "Director: A. R. Murugadoss | Music: Anirudh Ravichander | Producer: Lyca Productions",
+      watchLink: "https://moviesdatamil.co/kaththi-2014-movie/",
+      vpnNote: "If you want to download this movie, please change your VPN to an Indian server"
     }
   ];
 
@@ -2463,10 +2471,15 @@
             ${movie.watchLink ? `
             <div class="meta-block" style="margin-top: 15px;">
               <span class="meta-block-title" style="color: var(--accent-blue);">Where to Watch</span>
-              <p class="meta-block-val" style="margin: 0;">
+              <p class="meta-block-val" style="margin: 0; display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
                 <a href="${movie.watchLink}" target="_blank" class="watch-link-btn" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(41, 182, 246, 0.15); color: var(--accent-blue); padding: 10px 20px; border: 1px solid rgba(41, 182, 246, 0.4); border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 0.85rem; letter-spacing: 1px; transition: all 0.3s ease; box-shadow: 0 0 10px rgba(41, 182, 246, 0.1);">
-                  🚀 STREAM ONLINE
+                  🚀 Watch this Movie
                 </a>
+                ${movie.vpnNote ? `
+                <span style="font-family: var(--font-terminal); font-size: 0.75rem; color: #ffab40; font-style: italic; margin-top: 4px; display: block; letter-spacing: 0.5px; line-height: 1.4;">
+                  ⚠️ ${movie.vpnNote}
+                </span>
+                ` : ''}
               </p>
             </div>
             ` : ''}
