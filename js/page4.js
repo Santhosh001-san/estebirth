@@ -2339,6 +2339,51 @@
       story: "An emotionless military doctor leads a quirky family on a rescue mission to track down and dismantle a human trafficking ring in a deadpan comedic style.",
       cast: "Sivakarthikeyan, Priyanka Arul Mohan, Vinay Rai, Yogi Babu, Redin Kingsley",
       crew: "Director: Nelson Dilipkumar | Music: Anirudh Ravichander | Producer: KJR Studios"
+    },
+    {
+      id: "kaithi",
+      title: "Kaithi",
+      image: "assets/images/kaithi.jpeg",
+      genre: "Action / Thriller",
+      story: "An ex-convict who is eager to meet his daughter for the first time is intercepted by an inspector who needs his help to drive a truck full of unconscious cops to a hospital, while being chased by gang members.",
+      cast: "Karthi, Narain, Arjun Das, George Maryan, Harish Uthaman",
+      crew: "Director: Lokesh Kanagaraj | Music: Sam C. S. | Producer: Dream Warrior Pictures"
+    },
+    {
+      id: "vikram_2",
+      title: "Vikram 2",
+      image: "assets/images/vikram_2.jpeg",
+      genre: "Action / Crime / Thriller",
+      story: "A special agent investigates a series of murders committed by a masked group of vigilantes, leading to a massive conflict involving a drug kingpin and a legendary black ops commander.",
+      cast: "Kamal Haasan, Vijay Sethupathi, Fahadh Faasil, Kalidas Jayaram, Narain, Suriya (cameo)",
+      crew: "Director: Lokesh Kanagaraj | Music: Anirudh Ravichander | Producer: Raaj Kamal Films International"
+    },
+    {
+      id: "aayirathil_oruvan",
+      title: "Aayirathil Oruvan",
+      image: "assets/images/aayirathil_oruvan.jpeg",
+      genre: "Action / Adventure / Fantasy",
+      story: "An archaeologist, a government officer, and a group of coolies embark on a dangerous journey into the deserts of Vietnam to find a missing archaeologist and uncover the lost Chola civilization.",
+      cast: "Karthi, Reemma Sen, Andrea Jeremiah, Parthiban",
+      crew: "Director: Selvaraghavan | Music: G. V. Prakash Kumar | Producer: Dream Valley Corporation"
+    },
+    {
+      id: "anniyan",
+      title: "Anniyan",
+      image: "assets/images/anniyan.jpeg",
+      genre: "Action / Drama / Thriller",
+      story: "An idealistic consumer protection advocate, frustrated by public apathy and corruption, develops multiple personality disorder, manifesting a vigilante persona who executes lawbreakers using ancient methods.",
+      cast: "Vikram, Sadha, Nedumudi Venu, Vivek, Prakash Raj",
+      crew: "Director: S. Shankar | Music: Harris Jayaraj | Producer: Oscar Films"
+    },
+    {
+      id: "kaththi",
+      title: "Kaththi",
+      image: "assets/images/kaththi.jpeg",
+      genre: "Action / Drama / Thriller",
+      story: "Kathiresan, a criminal who escapes from prison, assumes the identity of his lookalike Jeeva, a social activist fighting a greedy corporation that is trying to seize agricultural land from farmers.",
+      cast: "Vijay, Samantha, Neil Nitin Mukesh, Tota Roy Chowdhury",
+      crew: "Director: A. R. Murugadoss | Music: Anirudh Ravichander | Producer: Lyca Productions"
     }
   ];
 
