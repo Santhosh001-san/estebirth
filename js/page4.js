@@ -2254,6 +2254,7 @@
       id: "leo",
       title: "Leo",
       image: "assets/images/leo.jpeg",
+      thumbnail: "assets/images/leo_thumb.jpeg",
       genre: "Action / Crime / Thriller",
       story: "Parthiban is a mild-mannered cafe owner in Himachal Pradesh who becomes a local hero, but his actions trigger a dark blast from the past, dragging him back into a brutal gangster world.",
       cast: "Vijay, Trisha, Sanjay Dutt, Arjun Sarja, Gautham Vasudev Menon",
@@ -2264,6 +2265,7 @@
       id: "amaran",
       title: "Amaran",
       image: "assets/images/amaran.jpeg",
+      thumbnail: "assets/images/amaran_thumb.jpeg",
       genre: "Action / Biography / Drama / War",
       story: "The inspiring true story of Major Mukund Varadarajan, an Indian Army officer who displayed immense valor during a counter-terrorism operation in Jammu and Kashmir.",
       cast: "Sivakarthikeyan, Sai Pallavi, Bhuvan Arora, Rahul Bose",
@@ -2273,6 +2275,7 @@
       id: "dragon",
       title: "Dragon",
       image: "assets/images/dragon.jpeg",
+      thumbnail: "assets/images/dragon_thumb.jpeg",
       genre: "Comedy / Drama / Romance",
       story: "A fun, energetic youth drama centered around college life, ambition, and the wild, comedic misadventures of a group of close friends finding their path.",
       cast: "Pradeep Ranganathan, Anupama Parameswaran, Kayadu Lohar",
@@ -2282,6 +2285,7 @@
       id: "visaranai",
       title: "Visaranai",
       image: "assets/images/visaranai.jpeg",
+      thumbnail: "assets/images/visaranai_thumb.jpeg",
       genre: "Crime / Drama / Thriller",
       story: "A hard-hitting police procedural drama that exposes police brutality, systemic corruption, and the tragic plight of innocent immigrant workers caught in a web of power.",
       cast: "Dinesh, Samuthirakani, Kishore, Anandhi, Murugadass",
@@ -2291,6 +2295,7 @@
       id: "goat",
       title: "GOAT",
       image: "assets/images/goat.jpeg",
+      thumbnail: "assets/images/goat_thumb.jpeg",
       genre: "Action / Sci-Fi / Thriller",
       story: "An elite counter-terrorism agent retired from active duty is forced back into the field when a deadly shadow from his past threatens his family and country.",
       cast: "Vijay, Prashanth, Prabhu Deva, Sneha, Laila, Meenakshi Chaudhary",
@@ -2300,6 +2305,7 @@
       id: "vidamuyarchi",
       title: "Vidamuyarchi",
       image: "assets/images/vidamuyarchi.jpeg",
+      thumbnail: "assets/images/vidamuyarchi_thumb.jpeg",
       genre: "Action / Thriller",
       story: "A high-octane thriller about a man's relentless search for his wife who goes missing during a road trip, leading him into a web of conspiracy and danger.",
       cast: "Ajith Kumar, Trisha, Arjun Sarja, Aarav, Regina Cassandra",
@@ -2309,6 +2315,7 @@
       id: "mandela",
       title: "Mandela",
       image: "assets/images/mandela.jpeg",
+      thumbnail: "assets/images/mandela_thumb.jpeg",
       genre: "Comedy / Drama / Political",
       story: "In a divided village, a poor barber named Mandela suddenly becomes the single deciding vote in a local election, leading to a hilarious scramble for his favor.",
       cast: "Yogi Babu, Sheela Rajkumar, Sangili Murugan, G. M. Kumar",
@@ -2318,6 +2325,7 @@
       id: "love_today",
       title: "Love Today",
       image: "assets/images/love_today.jpeg",
+      thumbnail: "assets/images/love_today_thumb.jpeg",
       genre: "Comedy / Romance / Drama",
       story: "A modern couple is challenged by the girl's father to swap their smartphones for 24 hours before marriage, leading to a chaotic, hilarious expose of secrets.",
       cast: "Pradeep Ranganathan, Ivana, Sathyaraj, Radhika Sarathkumar, Yogi Babu",
@@ -2327,6 +2335,7 @@
       id: "with_love",
       title: "With Love (2026)",
       image: "assets/images/with_love.jpeg",
+      thumbnail: "assets/images/with_love_thumb.jpeg",
       genre: "Romance / Drama",
       story: "Sathya and Monisha meet on a blind date and discover that they were schoolmates. As they revisit old memories and unspoken feelings, their unexpected meeting slowly brings them closer.",
       cast: "Hero: Abishan Jeevinth | Heroine: Anaswara Rajan",
@@ -2336,6 +2345,7 @@
       id: "doctor",
       title: "Doctor",
       image: "assets/images/doctor.jpeg",
+      thumbnail: "assets/images/doctor_thumb.jpeg",
       genre: "Action / Comedy / Crime",
       story: "An emotionless military doctor leads a quirky family on a rescue mission to track down and dismantle a human trafficking ring in a deadpan comedic style.",
       cast: "Sivakarthikeyan, Priyanka Arul Mohan, Vinay Rai, Yogi Babu, Redin Kingsley",
@@ -2345,6 +2355,7 @@
       id: "kaithi",
       title: "Kaithi",
       image: "assets/images/kaithi.jpeg",
+      thumbnail: "assets/images/kaithi_thumb.jpeg",
       genre: "Action / Thriller",
       story: "An ex-convict who is eager to meet his daughter for the first time is intercepted by an inspector who needs his help to drive a truck full of unconscious cops to a hospital, while being chased by gang members.",
       cast: "Karthi, Narain, Arjun Das, George Maryan, Harish Uthaman",
@@ -2357,6 +2368,7 @@
       id: "vikram_2",
       title: "Vikram 2",
       image: "assets/images/vikram_2.jpeg",
+      thumbnail: "assets/images/vikram_2_thumb.jpeg",
       genre: "Action / Crime / Thriller",
       story: "A special agent investigates a series of murders committed by a masked group of vigilantes, leading to a massive conflict involving a drug kingpin and a legendary black ops commander.",
       cast: "Kamal Haasan, Vijay Sethupathi, Fahadh Faasil, Kalidas Jayaram, Narain, Suriya (cameo)",
@@ -2369,6 +2381,7 @@
       id: "aayirathil_oruvan",
       title: "Aayirathil Oruvan",
       image: "assets/images/aayirathil_oruvan.jpeg",
+      thumbnail: "assets/images/aayirathil_oruvan_thumb.jpeg",
       genre: "Action / Adventure / Fantasy",
       story: "An archaeologist, a government officer, and a group of coolies embark on a dangerous journey into the deserts of Vietnam to find a missing archaeologist and uncover the lost Chola civilization.",
       cast: "Karthi, Reemma Sen, Andrea Jeremiah, Parthiban",
@@ -2381,6 +2394,7 @@
       id: "anniyan",
       title: "Anniyan",
       image: "assets/images/anniyan.jpeg",
+      thumbnail: "assets/images/anniyan_thumb.jpeg",
       genre: "Action / Drama / Thriller",
       story: "An idealistic consumer protection advocate, frustrated by public apathy and corruption, develops multiple personality disorder, manifesting a vigilante persona who executes lawbreakers using ancient methods.",
       cast: "Vikram, Sadha, Nedumudi Venu, Vivek, Prakash Raj",
@@ -2393,6 +2407,7 @@
       id: "kaththi",
       title: "Kaththi",
       image: "assets/images/kaththi.jpeg",
+      thumbnail: "assets/images/kaththi_thumb.jpeg",
       genre: "Action / Drama / Thriller",
       story: "Kathiresan, a criminal who escapes from prison, assumes the identity of his lookalike Jeeva, a social activist fighting a greedy corporation that is trying to seize agricultural land from farmers.",
       cast: "Vijay, Samantha, Neil Nitin Mukesh, Tota Roy Chowdhury",
@@ -2416,7 +2431,7 @@
       
       card.innerHTML = `
         <div class="movie-card-img-wrap">
-          <img class="movie-card-img" src="${movie.image}" alt="${movie.title}" loading="lazy">
+          <img class="movie-card-img" src="${movie.thumbnail}" alt="${movie.title}" loading="lazy">
         </div>
         <h4 class="movie-card-title">${movie.title}</h4>
       `;
@@ -2444,7 +2459,7 @@
     movieDetailArea.innerHTML = `
       <div class="movie-details-content">
         <div class="movie-details-poster-wrap" id="detail-poster-wrap">
-          <img class="movie-details-poster" src="${movie.image}" alt="${movie.title}">
+          <img class="movie-details-poster" src="${movie.thumbnail}" alt="${movie.title}">
           <span class="click-4k-hint">🔍 CLICK PHOTO FOR 4K VIEW</span>
         </div>
         <div class="movie-details-info">
