@@ -2415,6 +2415,19 @@
       watchLink: "https://moviesdatamil.co/kaththi-2014-movie/",
       vpnNote: "If you want to download this movie, please change your VPN to an Indian server",
       subLink: "https://subdl.com/subtitle/sd1767/kaththi"
+    },
+    {
+      id: "master",
+      title: "Master",
+      image: "assets/images/master.jpeg",
+      thumbnail: "assets/images/master_thumb.jpeg",
+      genre: "Action / Drama / Thriller",
+      story: "An alcoholic professor is sent to a juvenile correctional facility for a three-month teaching assignment, where he clashes with a ruthless gangster who is exploiting the young inmates for his criminal operations.",
+      cast: "Vijay, Vijay Sethupathi, Malavika Mohanan, Andrea Jeremiah, Arjun Das",
+      crew: "Director: Lokesh Kanagaraj | Music: Anirudh Ravichander | Producer: XB Film Creators",
+      watchLink: "https://moviesdatamil.co/master-movie-original-hd-audio/",
+      vpnNote: "If you want to download this movie, please change your VPN to an Indian server",
+      subLink: "https://subdl.com/subtitle/sd1615365/master"
     }
   ];
 
