@@ -2259,7 +2259,8 @@
       story: "Parthiban is a mild-mannered cafe owner in Himachal Pradesh who becomes a local hero, but his actions trigger a dark blast from the past, dragging him back into a brutal gangster world.",
       cast: "Vijay, Trisha, Sanjay Dutt, Arjun Sarja, Gautham Vasudev Menon",
       crew: "Director: Lokesh Kanagaraj | Music: Anirudh Ravichander | Producer: Seven Screen Studio",
-      note: "Watching this movie before watching Kaithi and Vikram 2 is not recommended. LCU (Lokesh Cinematic Universe) is a shared cinematic universe just like the Marvel and DC superhero universes, but instead of superheroes, it is an interconnected gangster universe. Since Kaithi and Vikram 2 are not available on Netflix, you can find the direct watch links in their respective details sections below in this Movie Hub. So, please do not watch this movie without the correct order!"
+      note: "Watching this movie before watching Kaithi and Vikram 2 is not recommended. LCU (Lokesh Cinematic Universe) is a shared cinematic universe just like the Marvel and DC superhero universes, but instead of superheroes, it is an interconnected gangster universe. Since Kaithi and Vikram 2 are not available on Netflix, you can find the direct watch links in their respective details sections below in this Movie Hub. So, please do not watch this movie without the correct order!",
+      lcuOrder: "1. Kaithi, 2. Vikram 2, 3. Leo"
     },
     {
       id: "amaran",
@@ -2362,7 +2363,8 @@
       crew: "Director: Lokesh Kanagaraj | Music: Sam C. S. | Producer: Dream Warrior Pictures",
       watchLink: "https://moviesdatamil.co/kaithi-movie-original-hd/",
       vpnNote: "You can use both the server Indian or either your country to access this movie to download",
-      subLink: "https://subdl.com/subtitle/sd1384133/kaithi"
+      subLink: "https://subdl.com/subtitle/sd1384133/kaithi",
+      lcuOrder: "1. Kaithi, 2. Vikram 2, 3. Leo"
     },
     {
       id: "vikram_2",
@@ -2375,7 +2377,8 @@
       crew: "Director: Lokesh Kanagaraj | Music: Anirudh Ravichander | Producer: Raaj Kamal Films International",
       watchLink: "https://moviesdatamil.co/vikram-movie-original-hd/",
       vpnNote: "You can use both the server Indian or either your country to access this movie to download",
-      subLink: "https://subdl.com/subtitle/sd1637257/vikram"
+      subLink: "https://subdl.com/subtitle/sd1637257/vikram",
+      lcuOrder: "1. Kaithi, 2. Vikram 2, 3. Leo"
     },
     {
       id: "aayirathil_oruvan",
@@ -2486,6 +2489,14 @@
               <span class="meta-block-title" style="color: var(--accent-pink);">Special LCU Note</span>
               <p class="meta-block-val" style="color: #bfbbcc; font-style: italic; background: rgba(255, 42, 42, 0.08); padding: 12px 18px; border-radius: 12px; border-left: 3px solid var(--accent-pink); line-height: 1.6; margin: 0;">
                 ${movie.note}
+              </p>
+            </div>
+            ` : ''}
+            ${movie.lcuOrder ? `
+            <div class="meta-block" style="grid-column: 1 / -1; margin-bottom: 15px;">
+              <span class="meta-block-title" style="color: #4caf50;">LCU Movie Order</span>
+              <p class="meta-block-val" style="color: #ffffff; font-weight: bold; background: rgba(76, 175, 80, 0.08); padding: 10px 18px; border-radius: 12px; border-left: 3px solid #4caf50; font-family: var(--font-terminal); font-size: 0.85rem; letter-spacing: 0.5px; margin: 0;">
+                ${movie.lcuOrder}
               </p>
             </div>
             ` : ''}
