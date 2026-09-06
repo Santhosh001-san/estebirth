@@ -2496,6 +2496,19 @@
       watchLink: "https://www.tamilprint66.art/mersal-movie-download",
       vpnNote: "You can use both the server Indian or either your country to access this movie to download",
       subLink: "https://subdl.com/subtitle/sd1195/mersal"
+    },
+    {
+      id: "jaibhim",
+      title: "Jai Bhim",
+      image: "assets/images/jaibhim.jpeg",
+      thumbnail: "assets/images/jaibhim_thumb.jpeg",
+      genre: "Crime / Drama / Mystery",
+      story: "When an impoverished tribal man named Rajakannu is falsely accused of theft and goes missing under brutal police custody, a courageous human rights lawyer named Chandru wages an uncompromising legal battle in the High Court to fight for justice and truth.",
+      cast: "Suriya, Lijomol Jose, Manikandan, Rajisha Vijayan, Prakash Raj, Rao Ramesh",
+      crew: "Director: T. J. Gnanavel | Music: Sean Roldan | Producer: 2D Entertainment",
+      watchLink: "https://moviezda.com/jai-bhim-tamil/",
+      vpnNote: "You can use both the server Indian or either your country to access this movie to download",
+      subLink: "https://subdl.com/subtitle/sd1629119/jai-bhim"
     }
   ];
 
