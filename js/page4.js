@@ -2431,6 +2431,71 @@
       watchLink: "https://moviesdatamil.co/master-movie-original-hd-audio/",
       vpnNote: "You can use both the server Indian or either your country to access this movie to download",
       subLink: "https://subdl.com/subtitle/sd1615365/master"
+    },
+    {
+      id: "7_aum_arivu",
+      title: "7 Aam Arivu (7th Sense)",
+      image: "assets/images/7_aum_arivu.jpeg",
+      thumbnail: "assets/images/7_aum_arivu_thumb.jpeg",
+      genre: "Action / Sci-Fi / Thriller",
+      story: "A genetic engineering student and a circus artist, who is the direct descendant of the 6th-century legend Bodhidharma, race against time to reactivate his dormant genetic memory and defeat a deadly bio-warfare virus unleashed upon India.",
+      cast: "Suriya, Shruti Haasan, Johnny Tri Nguyen, Avinash, Abhinaya",
+      crew: "Director: A. R. Murugadoss | Music: Harris Jayaraj | Producer: Red Giant Movies",
+      watchLink: "https://www.tamilprint66.art/7aum_arivu_2011_hd_dvd_tamil_movie_download",
+      vpnNote: "You can use both the server Indian or either your country to access this movie to download",
+      subLink: "https://subdl.com/subtitle/sd1519166/7aum-arivu"
+    },
+    {
+      id: "ayan",
+      title: "Ayan",
+      image: "assets/images/ayan.jpeg",
+      thumbnail: "assets/images/ayan_thumb.jpeg",
+      genre: "Action / Crime / Thriller",
+      story: "A brilliant young computer engineer works as a daring international smuggler for a veteran underworld boss, but ruthless gang rivalries, deadly betrayals, and sharp customs officials plunge him into a relentless cat-and-mouse chase across borders.",
+      cast: "Suriya, Tamannaah Bhatia, Prabhu, Akashdeep Saighal, Jagan, Karunas",
+      crew: "Director: K. V. Anand | Music: Harris Jayaraj | Producer: AVM Productions",
+      watchLink: "https://moviezda.com/ayan-hd-movie/",
+      vpnNote: "You can use both the server Indian or either your country to access this movie to download",
+      subLink: "https://subdl.com/subtitle/sd13156/ayan"
+    },
+    {
+      id: "mankatha",
+      title: "Mankatha",
+      image: "assets/images/mankatha.jpeg",
+      thumbnail: "assets/images/mankatha_thumb.jpeg",
+      genre: "Action / Crime / Thriller",
+      story: "A suspended and remorseless police officer joins hands with a gang of ambitious youngsters to pull off a 500-crore betting money heist during the IPL season, igniting a merciless cycle of betrayal, greed, and high-octane showdowns.",
+      cast: "Ajith Kumar, Arjun Sarja, Trisha, Lakshmi Rai, Anjali, Andrea Jeremiah, Vaibhav, Premji Amaren",
+      crew: "Director: Venkat Prabhu | Music: Yuvan Shankar Raja | Producer: Cloud Nine Movies",
+      watchLink: "https://www.tamilprint66.art/mankatha_2011_hd_dvd_tamil_movie_download",
+      vpnNote: "You can use both the server Indian or either your country to access this movie to download",
+      subLink: "https://subdl.com/subtitle/sd21468/mankatha"
+    },
+    {
+      id: "i",
+      title: "I",
+      image: "assets/images/i.jpeg",
+      thumbnail: "assets/images/i_thumb.jpeg",
+      genre: "Action / Romance / Thriller",
+      story: "An aspiring bodybuilder rises to fame as a top supermodel alongside his dream woman, but jealous rivals inject him with the devastating 'H' virus, severely deforming his body and driving him on a relentless quest for calculated retribution.",
+      cast: "Vikram, Amy Jackson, Suresh Gopi, Upen Patel, Santhanam, Ramkumar Ganesan",
+      crew: "Director: S. Shankar | Music: A. R. Rahman | Producer: Aascar Film",
+      watchLink: "https://www.tamilprint66.art/i-movie-(2015)-download",
+      vpnNote: "You can use both the server Indian or either your country to access this movie to download",
+      subLink: "https://subdl.com/subtitle/sd13938/i"
+    },
+    {
+      id: "mersal",
+      title: "Mersal",
+      image: "assets/images/mersal.jpeg",
+      thumbnail: "assets/images/mersal_thumb.jpeg",
+      genre: "Action / Drama / Thriller",
+      story: "A benevolent doctor charging only five rupees for treatment and an enigmatic magician use their skills to expose medical malpractice, avenge their father's tragic demise, and dismantle a ruthless healthcare monopoly.",
+      cast: "Vijay, S. J. Suryah, Kajal Aggarwal, Samantha, Nithya Menen, Vadivelu, Kovai Sarala",
+      crew: "Director: Atlee | Music: A. R. Rahman | Producer: Thenandal Studio Limited",
+      watchLink: "https://www.tamilprint66.art/mersal-movie-download",
+      vpnNote: "You can use both the server Indian or either your country to access this movie to download",
+      subLink: "https://subdl.com/subtitle/sd1195/mersal"
     }
   ];
 
