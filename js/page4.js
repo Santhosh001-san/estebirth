@@ -2512,6 +2512,18 @@
       watchLink: "https://moviezda.com/jai-bhim-tamil/",
       vpnNote: "You can use both the server Indian or either your country to access this movie to download",
       subLink: "https://subdl.com/subtitle/sd1629119/jai-bhim"
+    },
+    {
+      id: "dc",
+      title: "DC (2026)",
+      image: "assets/images/dc.jpeg",
+      thumbnail: "assets/images/dc_thumb.jpeg",
+      genre: "Action / Romance / Drama / Thriller",
+      story: "Das, an outlaw, and Chandra, a fierce and brutalised woman, embark on a ferocious path of vengeance against corrupt police officers following the tragic loss of Parvathy, waging a gritty and high-octane battle for retribution.",
+      noteTitle: "Note",
+      note: "The director of the blockbuster movies you explored earlier—Master, Vikram 2, Leo, and Kaithi (Lokesh Kanagaraj)—makes his lead acting debut as the hero in this film! Most importantly, what you absolutely cannot miss in this movie is the phenomenal background score and songs by Anirudh Ravichander; every single track and theme is a masterclass. Don't miss it, or you will definitely regret it!",
+      cast: "Lokesh Kanagaraj, Wamiqa Gabbi, Sanjana Krishnamoorthy",
+      crew: "Director: Arun Matheswaran | Music: Anirudh Ravichander | Producer: Sun Pictures"
     }
   ];
 
