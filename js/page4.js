@@ -2259,6 +2259,7 @@
       story: "Parthiban is a mild-mannered cafe owner in Himachal Pradesh who becomes a local hero, but his actions trigger a dark blast from the past, dragging him back into a brutal gangster world.",
       cast: "Vijay, Trisha, Sanjay Dutt, Arjun Sarja, Gautham Vasudev Menon",
       crew: "Director: Lokesh Kanagaraj | Music: Anirudh Ravichander | Producer: Seven Screen Studio",
+      noteTitle: "Special LCU Note",
       note: "Watching this movie before watching Kaithi and Vikram 2 is not recommended. LCU (Lokesh Cinematic Universe) is a shared cinematic universe just like the Marvel and DC superhero universes, but instead of superheroes, it is an interconnected gangster universe. Since Kaithi and Vikram 2 are not available on Netflix, you can find the direct watch links in their respective details sections below in this Movie Hub. So, please do not watch this movie without the correct order!",
       lcuOrder: "1. Kaithi, 2. Vikram 2, 3. Leo"
     },
@@ -2439,6 +2440,8 @@
       thumbnail: "assets/images/7_aum_arivu_thumb.jpeg",
       genre: "Action / Sci-Fi / Thriller",
       story: "A genetic engineering student and a circus artist, who is the direct descendant of the 6th-century legend Bodhidharma, race against time to reactivate his dormant genetic memory and defeat a deadly bio-warfare virus unleashed upon India.",
+      noteTitle: "Note",
+      note: "Commander, just like how the Coronavirus pandemic hit our world, this movie portrays a strikingly similar bio-warfare situation. Honestly, I still can't believe it, and I have a slight doubt whether what was shown in this movie might actually have been true in reality!",
       cast: "Suriya, Shruti Haasan, Johnny Tri Nguyen, Avinash, Abhinaya",
       crew: "Director: A. R. Murugadoss | Music: Harris Jayaraj | Producer: Red Giant Movies",
       watchLink: "https://www.tamilprint66.art/7aum_arivu_2011_hd_dvd_tamil_movie_download",
@@ -2564,7 +2567,7 @@
           <div class="movie-details-meta">
             ${movie.note ? `
             <div class="meta-block" style="grid-column: 1 / -1; margin-bottom: 15px;">
-              <span class="meta-block-title" style="color: var(--accent-pink);">Special LCU Note</span>
+              <span class="meta-block-title" style="color: var(--accent-pink);">${movie.noteTitle || 'Note'}</span>
               <p class="meta-block-val" style="color: #bfbbcc; font-style: italic; background: rgba(255, 42, 42, 0.08); padding: 12px 18px; border-radius: 12px; border-left: 3px solid var(--accent-pink); line-height: 1.6; margin: 0;">
                 ${movie.note}
               </p>
