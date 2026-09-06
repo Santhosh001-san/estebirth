@@ -2523,7 +2523,10 @@
       noteTitle: "Note",
       note: "The director of the blockbuster movies you explored earlier—Master, Vikram 2, Leo, and Kaithi (Lokesh Kanagaraj)—makes his lead acting debut as the hero in this film! Most importantly, what you absolutely cannot miss in this movie is the phenomenal background score and songs by Anirudh Ravichander; every single track and theme is a masterclass. Don't miss it, or you will definitely regret it!",
       cast: "Lokesh Kanagaraj, Wamiqa Gabbi, Sanjana Krishnamoorthy",
-      crew: "Director: Arun Matheswaran | Music: Anirudh Ravichander | Producer: Sun Pictures"
+      crew: "Director: Arun Matheswaran | Music: Anirudh Ravichander | Producer: Sun Pictures",
+      watchLink: "https://moviezda.com/dc-original-movie/",
+      vpnNote: "You can use both the server Indian or either your country to access this movie to download",
+      subLink: "https://subdl.com/subtitle/sd12718715/dc"
     }
   ];
 
