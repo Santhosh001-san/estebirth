@@ -2592,6 +2592,34 @@
       watchLink: "https://moviezda.com/soorarai-pottru-movie-360p-hd/",
       vpnNote: "You can use both the server Indian or either your country to access this movie to download",
       subLink: "https://subdl.com/subtitle/sd1356126/soorarai-pottru"
+    },
+    {
+      id: "ratsasan",
+      title: "Ratsasan",
+      image: "assets/images/ratsasan.jpeg",
+      thumbnail: "assets/images/ratsasan_thumb.jpeg",
+      genre: "Action / Crime / Drama / Mystery / Psychological Thriller",
+      story: "An aspiring filmmaker turned sub-inspector investigates the gruesome serial murders of young schoolgirls across the city. Armed with an obsession for criminal psychology, he embarks on an intense, cat-and-mouse psychological duel to hunt down an elusive and psychopathic killer.",
+      cast: "Vishnu Vishal, Amala Paul, Saravanan, Munishkanth, Kaali Venkat, Ramdoss",
+      crew: "Director: Ram Kumar | Music: Ghibran | Producer: Axess Film Factory",
+      watchLink: "https://www.tamilprint67.art/ratsasan_2018_hd_dvd_tamil_print_tamil_movie_download",
+      vpnNote: "You can use both the server Indian or either your country to access this movie to download",
+      subLink: "https://subdl.com/subtitle/sd45131/ratsasan"
+    },
+    {
+      id: "comali",
+      title: "Comali",
+      image: "assets/images/comali.jpeg",
+      thumbnail: "assets/images/comali_thumb.jpeg",
+      genre: "Comedy / Drama / Sci-Fi",
+      story: "A cheerful youth wakes up from a 16-year coma into a modern world completely overtaken by smartphones, social media, and transformed lifestyle values, embarking on hilarious misadventures and a heartfelt quest to reconnect with his past.",
+      noteTitle: "Note",
+      note: "This film marks the directorial debut of Pradeep Ranganathan, whom you saw earlier as the lead hero in 'Love Today' and 'Dragon'! It was only after directing this smash-hit comedy that he made his acting debut as a lead hero in 'Love Today'.",
+      cast: "Jayam Ravi, Kajal Aggarwal, Samyuktha Hegde, Yogi Babu, K. S. Ravikumar",
+      crew: "Director: Pradeep Ranganathan | Music: Hiphop Tamizha | Producer: Vels Film International",
+      watchLink: "https://moviezda.com/comali-movie-360p-hd/",
+      vpnNote: "You can use both the server Indian or either your country to access this movie to download",
+      subLink: "https://subdl.com/subtitle/sd1386789/comali"
     }
   ];
 
