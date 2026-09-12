@@ -2527,6 +2527,71 @@
       watchLink: "https://moviezda.com/dc-original-movie/",
       vpnNote: "You can use both the server Indian or either your country to access this movie to download",
       subLink: "https://subdl.com/subtitle/sd12718715/dc"
+    },
+    {
+      id: "theeran",
+      title: "Theeran Adhigaram Onru",
+      image: "assets/images/theeran.jpeg",
+      thumbnail: "assets/images/theeran_thumb.jpeg",
+      genre: "Action / Crime / Mystery / Thriller",
+      story: "Based on the real-life Operation Bawaria case, DSP Theeran Thirumaran leads an uncompromising police squad on a grueling, multi-year cross-country manhunt to hunt down a ruthless nomadic criminal gang responsible for gruesome highway dacoities.",
+      cast: "Karthi, Rakul Preet Singh, Abhimanyu Singh, Bose Venkat, Praveen",
+      crew: "Director: H. Vinoth | Music: Ghibran | Producer: Dream Warrior Pictures",
+      watchLink: "https://moviezda.com/theeran-adhigaaram-ondru-movie-360p-hd/",
+      vpnNote: "You can use both the server Indian or either your country to access this movie to download",
+      subLink: "https://subdl.com/subtitle/sd14128/theeran-adhigaram-ondru"
+    },
+    {
+      id: "enthiran",
+      title: "Enthiran (The Robot)",
+      image: "assets/images/enthiran.jpeg",
+      thumbnail: "assets/images/enthiran_thumb.jpeg",
+      genre: "Action / Sci-Fi",
+      story: "A brilliant roboticist, Dr. Vaseegaran, constructs a humanoid robot named Chitti to aid the military. However, after Chitti is upgraded with human emotions, he falls in love with Vaseegaran's fiancée Sana, leading a treacherous rival scientist to manipulate Chitti's programming and turn him into a ruthless, destructive killing machine.",
+      cast: "Rajinikanth, Aishwarya Rai Bachchan, Danny Denzongpa, Santhanam, Karunas",
+      crew: "Director: S. Shankar | Music: A. R. Rahman | Producer: Sun Pictures",
+      watchLink: "https://www.tamilprint67.art/enthiran_2010_hd_dvd_tamil_print_tamil_movie_download",
+      vpnNote: "You can use both the server Indian or either your country to access this movie to download",
+      subLink: "https://subdl.com/subtitle/sd2423/endhiran-the-robot"
+    },
+    {
+      id: "thuppakki",
+      title: "Thuppakki",
+      image: "assets/images/thuppakki.jpeg",
+      thumbnail: "assets/images/thuppakki_thumb.jpeg",
+      genre: "Action / Crime / Thriller",
+      story: "Jagadish Dhanapal, an elite Indian Army intelligence officer on vacation in Mumbai, accidentally witnesses a bus bombing and uncovers a massive network of terrorist sleeper cells plotting serial blasts. Utilizing his tactical brilliance and black-ops team, he undertakes a covert mission to hunt down the sleeper cells and neutralize their mastermind.",
+      cast: "Vijay, Kajal Aggarwal, Vidyut Jammwal, Sathyan, Jayaram, Zakir Hussain",
+      crew: "Director: A. R. Murugadoss | Music: Harris Jayaraj | Producer: V. Creations",
+      watchLink: "https://www.tamilprint67.art/thuppakki_hd_2012_bluray_tamil_print_tamil_movie_download",
+      vpnNote: "You can use both the server Indian or either your country to access this movie to download",
+      subLink: "https://subdl.com/subtitle/sd2285/thuppakki"
+    },
+    {
+      id: "asuran",
+      title: "Asuran",
+      image: "assets/images/asuran.jpeg",
+      thumbnail: "assets/images/asuran_thumb.jpeg",
+      genre: "Action / Drama",
+      story: "Sivasamy, an unassuming farmer from an oppressed caste, is forced on the run into the wilderness to protect his hot-tempered younger son who murdered an arrogant upper-caste landlord in vengeance. As ruthless bloodhounds close in, Sivasamy's violent and tragic past as a ferocious warrior is unearthed.",
+      cast: "Dhanush, Manju Warrier, Ken Karunas, Teejay Arunasalam, Pasupathy, Prakash Raj",
+      crew: "Director: Vetrimaaran | Music: G. V. Prakash Kumar | Producer: V Creations",
+      watchLink: "https://www.tamilprint67.art/asuran-download",
+      vpnNote: "You can use both the server Indian or either your country to access this movie to download",
+      subLink: "https://subdl.com/subtitle/sd1382166/asuran"
+    },
+    {
+      id: "soorarai_pottru",
+      title: "Soorarai Pottru",
+      image: "assets/images/soorarai_pottru.jpeg",
+      thumbnail: "assets/images/soorarai_pottru_thumb.jpeg",
+      genre: "Action / Biography / Drama",
+      story: "Inspired by the life of Captain G. R. Gopinath, a visionary former air force captain from a humble village sets out on an audacious crusade to make air travel affordable for every common Indian by launching a low-cost airline, battling corrupt aviation oligarchs and crushing bureaucratic hurdles.",
+      cast: "Suriya, Aparna Balamurali, Paresh Rawal, Mohan Babu, Urvashi, Karunas",
+      crew: "Director: Sudha Kongara | Music: G. V. Prakash Kumar | Producer: 2D Entertainment",
+      watchLink: "https://moviezda.com/soorarai-pottru-movie-360p-hd/",
+      vpnNote: "You can use both the server Indian or either your country to access this movie to download",
+      subLink: "https://subdl.com/subtitle/sd1356126/soorarai-pottru"
     }
   ];
 
